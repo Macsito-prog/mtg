@@ -1,0 +1,78 @@
+/*commander*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+
+
+/* body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.8)), url("assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}  */
+
+.contenedor{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+    height: 100%;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+
+
+
+.counter-col{
+
+    margin-top: 25%;
+}
+
+.btn-mas, .btn-menos{
+    height: 40px;
+    width: 40px;
+    font-size: 5px;
+    margin-bottom: 10px;;
+}
+
+h1,
+h2 {
+    margin-top: 15%;
+    color: white;
+    text-align: center;
+}
+
+.card-result{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-result:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
